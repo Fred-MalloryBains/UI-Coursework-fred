@@ -349,6 +349,22 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/nested_exception.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/operations.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__exception/terminate.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/copy_options.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_entry.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_iterator.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/directory_options.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_status.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_time_type.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/file_type.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/filesystem_error.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/operations.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path_iterator.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perms.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/space_info.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/u8path.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/buffer.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/concepts.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/container_adaptor.h \
@@ -541,10 +557,43 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_exclusive_scan.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_inclusive_scan.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/transform_reduce.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/bernoulli_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/binomial_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/cauchy_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/chi_squared_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/clamp_to_integral.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/default_random_engine.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discard_block_engine.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/discrete_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/exponential_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/extreme_value_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/fisher_f_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/gamma_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/generate_canonical.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/geometric_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/independent_bits_engine.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_seed_sequence.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/is_valid.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/knuth_b.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/linear_congruential_engine.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/log2.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/lognormal_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/mersenne_twister_engine.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/negative_binomial_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/normal_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_constant_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/poisson_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/random_device.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/ranlux.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/seed_seq.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/shuffle_order_engine.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/subtract_with_carry_engine.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_int_distribution.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_random_bit_generator.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/uniform_real_distribution.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/access.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/concepts.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/container_compatible_range.h \
@@ -561,6 +610,12 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
@@ -569,8 +624,12 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__threading_support \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/make_tuple_types.h \
@@ -750,6 +809,7 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/atomic \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bit \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/bitset \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cassert \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cctype \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/cerrno \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/chrono \
@@ -772,10 +832,14 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/errno.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/exception \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/execution \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/format \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/forward_list \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/functional \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/future \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/initializer_list \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/inttypes.h \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ios \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iosfwd \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/iostream \
@@ -795,7 +859,9 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ostream \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/random \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stdbool.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
@@ -808,6 +874,7 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
@@ -912,14 +979,110 @@ watertool_autogen/timestamp: \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_arg.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_copy.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__stdarg_va_list.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__wmmintrin_aes.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/__wmmintrin_pclmul.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/adxintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/amxcomplexintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/amxfp16intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/amxintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx2intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512bf16intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512bitalgintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512bwintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512cdintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512dqintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512erintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512fintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512fp16intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512ifmaintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512ifmavlintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512pfintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vbmi2intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vbmiintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vbmivlintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlbf16intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlbitalgintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlbwintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlcdintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vldqintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlfp16intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlvbmi2intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlvnniintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vlvp2intersectintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vnniintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vp2intersectintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vpopcntdqintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avx512vpopcntdqvlintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxifmaintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxneconvertintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxvnniint16intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxvnniint8intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxvnniintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/bmi2intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/bmiintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/cetintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/cldemoteintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/clflushoptintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/clwbintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/cmpccxaddintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/crc32intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/emmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/enqcmdintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/f16cintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/fmaintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/fxsrintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/gfniintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/hresetintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/immintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/invpcidintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/keylockerintrin.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/limits.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/lzcntintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/mm_malloc.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/mmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/movdirintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/pconfigintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/pkuintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/pmmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/popcntintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/prfchiintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/ptwriteintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/raointintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/rdseedintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/rtmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/serializeintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sgxintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sha512intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/shaintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sm3intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/sm4intrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/smmintrin.h \
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/stdarg.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/tmmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/tsxldtrkintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/uintrintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/vaesintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/vpclmulqdqintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/waitpkgintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/wbnoinvdintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/wmmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/x86gprintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/xmmintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/xsavecintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/xsaveintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/xsaveoptintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/xsavesintrin.h \
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/xtestintrin.h \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/CMakeLists.txt \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/build/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/build/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/build/watertool_autogen/moc_predefs.h \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/dataset.cpp \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/dataset.hpp \
+	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/fchart.cpp \
+	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/fchart.hpp \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/main.cpp \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/model.cpp \
 	/Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/model.hpp \
@@ -962,86 +1125,237 @@ watertool_autogen/timestamp: \
 	/usr/local/Cellar/cmake/3.30.5/share/cmake/Modules/Platform/Darwin-Initialize.cmake \
 	/usr/local/Cellar/cmake/3.30.5/share/cmake/Modules/Platform/Darwin.cmake \
 	/usr/local/Cellar/cmake/3.30.5/share/cmake/Modules/Platform/UnixPaths.cmake \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QAbstractAxis \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QAbstractSeries \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChart \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartGlobal \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QChartView \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLegend \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLineSeries \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QLogValueAxis \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QValueAxis \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/QXYSeries \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractaxis.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qabstractseries.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchart.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchartglobal.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qchartview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlegend.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlineseries.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qlogvalueaxis.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtcharts-config.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qtchartsexports.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qvalueaxis.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCharts.framework/Versions/A/Headers/qxyseries.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QAbstractTableModel \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QDeadlineTimer \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QEvent \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QHash \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QList \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMap \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMargins \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMetaType \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QMutex \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QObject \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QPointF \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QRect \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QScopedPointer \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QSize \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QSizeF \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QString \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QStringList \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QVariant \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QtCore \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/QtCoreDepends \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20algorithm.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20chrono.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20functional.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20iterator.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20map.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20memory.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20type_traits.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q20vector.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q23functional.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/q23utility.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qabstractanimation.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qabstracteventdispatcher.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qabstractitemmodel.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qabstractnativeeventfilter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qabstractproxymodel.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qalgorithms.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qanimationgroup.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qanystringview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qapplicationstatic.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qarraydata.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qarraydataops.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qarraydatapointer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qassert.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qassociativeiterable.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qatomic.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qatomic_cxx11.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qatomicscopedvaluerollback.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbasicatomic.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbasictimer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbindingstorage.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbitarray.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbuffer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearray.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearrayalgorithms.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearraylist.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearraymatcher.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qbytearrayview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcache.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcalendar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcborarray.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcborcommon.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcbormap.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcborstream.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcborstreamreader.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcborstreamwriter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcborvalue.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qchar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcollator.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcommandlineoption.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcommandlineparser.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcompare.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcompare_impl.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcomparehelpers.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcompilerdetection.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qconcatenatetablesproxymodel.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qconfig.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qconstructormacros.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcontainerfwd.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcontainerinfo.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcontainertools_impl.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcontiguouscache.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcoreapplication.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcoreapplication_platform.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcoreevent.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qcryptographichash.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdarwinhelpers.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdatastream.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdatetime.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdeadlinetimer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdebug.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdir.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qdiriterator.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qeasingcurve.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qelapsedtimer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qendian.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qeventloop.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qexception.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qexceptionhandling.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfactoryinterface.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfile.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfiledevice.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfileinfo.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfileselector.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfilesystemwatcher.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qflags.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfloat16.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qforeach.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfunctionaltools_impl.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfunctionpointer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfuture.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfuture_impl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfutureinterface.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfuturesynchronizer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qfuturewatcher.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qgenericatomic.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qglobal.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qglobalstatic.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qhash.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qhashfunctions.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qidentityproxymodel.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qiodevice.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qiodevicebase.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qitemselectionmodel.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qiterable.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qiterator.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qjsonarray.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qjsondocument.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qjsonobject.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qjsonvalue.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlatin1stringmatcher.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlatin1stringview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlibrary.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlibraryinfo.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qline.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlist.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlocale.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlockfile.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qlogging.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qloggingcategory.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmalloc.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmap.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmargins.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmath.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmessageauthenticationcode.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmetacontainer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmetaobject.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmetatype.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmimedata.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmimedatabase.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmimetype.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qminmax.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qmutex.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qnamespace.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qnativeinterface.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qnumeric.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qobject.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qobject_impl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qobjectcleanuphandler.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qobjectdefs.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qobjectdefs_impl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qoperatingsystemversion.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qoverload.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpair.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qparallelanimationgroup.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpauseanimation.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpermissions.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qplugin.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpluginloader.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpoint.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpointer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qprocess.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qprocessordetection.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpromise.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qproperty.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpropertyanimation.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qpropertyprivate.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qqueue.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qrandom.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qreadwritelock.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qrect.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qrefcount.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qregularexpression.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qresource.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qresultstore.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qrunnable.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsavefile.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qscopedpointer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qscopedvaluerollback.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qscopeguard.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsemaphore.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsequentialanimationgroup.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsequentialiterable.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qset.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsettings.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qshareddata.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qshareddata_impl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsharedmemory.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsharedpointer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsharedpointer_impl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsignalmapper.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsimd.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsize.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsocketnotifier.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsortfilterproxymodel.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qspan.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstack.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstandardpaths.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstaticlatin1stringmatcher.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstorageinfo.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstring.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringalgorithms.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringbuilder.h \
@@ -1049,6 +1363,7 @@ watertool_autogen/timestamp: \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringconverter_base.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringfwd.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringlist.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringlistmodel.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringliteral.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringmatcher.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qstringtokenizer.h \
@@ -1056,63 +1371,322 @@ watertool_autogen/timestamp: \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qswap.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsysinfo.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsystemdetection.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qsystemsemaphore.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtaggedpointer.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtclasshelpermacros.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtconfiginclude.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtconfigmacros.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtcore-config.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtcoreexports.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtcoreversion.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtdeprecationmarkers.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtemporarydir.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtemporaryfile.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtenvironmentvariables.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtextboundaryfinder.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtextstream.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qthread.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qthreadpool.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qthreadstorage.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtimeline.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtimer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtimezone.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtipccommon.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtmetamacros.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtnoop.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtpreprocessorsupport.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtranslator.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtransposeproxymodel.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtresource.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtsan_impl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtsymbolmacros.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qttranslation.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qttypetraits.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtversion.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtversionchecks.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtypeinfo.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtyperevision.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qtypes.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qurl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qurlquery.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qutf8stringview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/quuid.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvariant.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvariantanimation.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvarianthash.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvariantlist.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvariantmap.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvarlengtharray.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qvector.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qversionnumber.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qversiontagging.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qwaitcondition.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qwineventnotifier.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qxmlstream.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qxpfunctional.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qxptype_traits.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtCore.framework/Versions/A/Headers/qyieldcpu.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QAction \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QActionGroup \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QBrush \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QFileSystemModel \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QFont \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QImage \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QMatrix4x4 \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QPaintDevice \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QPaintDeviceWindow \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QPen \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QShortcut \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QSurfaceFormat \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QTransform \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QVector3D \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QWindow \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QtGui \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QtGuiDepends \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qabstractfileiconprovider.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qabstracttextdocumentlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qaccessible.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qaccessible_base.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qaccessiblebridge.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qaccessibleobject.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qaccessibleplugin.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qaction.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qactiongroup.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qbackingstore.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qbitmap.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qbrush.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qclipboard.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qcolor.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qcolorspace.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qcolortransform.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qcursor.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qdesktopservices.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qdrag.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qevent.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qeventpoint.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfilesystemmodel.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfont.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfontdatabase.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfontinfo.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfontmetrics.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qgenericmatrix.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qgenericplugin.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qgenericpluginfactory.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qglyphrun.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qguiapplication.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qguiapplication_platform.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qicon.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qiconengine.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qiconengineplugin.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qimage.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qimageiohandler.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qimagereader.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qimagewriter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qinputdevice.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qinputmethod.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qkeysequence.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qmatrix4x4.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qmovie.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qoffscreensurface.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qoffscreensurface_platform.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qopengl.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qopenglcontext.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qopenglcontext_platform.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qopenglextrafunctions.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qopenglfunctions.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpagedpaintdevice.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpagelayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpageranges.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpagesize.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpaintdevice.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpaintdevicewindow.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpaintengine.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpainter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpainterpath.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpalette.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpdfwriter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpen.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpicture.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpixelformat.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpixmap.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpixmapcache.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpointingdevice.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qpolygon.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qquaternion.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qrasterwindow.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qrawfont.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qregion.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qrgb.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qrgba64.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qrgbafloat.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qscreen.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qscreen_platform.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qsessionmanager.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qshortcut.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qstandarditemmodel.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qstatictext.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qstylehints.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qsurface.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qsurfaceformat.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qsyntaxhighlighter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextcursor.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextdocument.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextdocumentfragment.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextdocumentwriter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextformat.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextlist.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextobject.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtextoption.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtexttable.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtgui-config.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtguiexports.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtguiglobal.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtguiversion.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qtransform.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qundogroup.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qundostack.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qutimimeconverter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qvalidator.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qvector2d.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qvector3d.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qvector4d.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qvectornd.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qwindow.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QComboBox \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QLayout \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QMainWindow \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QScrollerProperties \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QtWidgets \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QtWidgetsDepends \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractbutton.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemdelegate.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractitemview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractscrollarea.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractslider.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qabstractspinbox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qaccessiblewidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qaction.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qactiongroup.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qapplication.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qboxlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qbuttongroup.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcalendarwidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcheckbox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcolordialog.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcolormap.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcolumnview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcombobox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcommandlinkbutton.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcommonstyle.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qcompleter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdatawidgetmapper.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdatetimeedit.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdial.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdialog.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdialogbuttonbox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdockwidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qdrawutil.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qerrormessage.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfiledialog.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfileiconprovider.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfilesystemmodel.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfocusframe.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfontcombobox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfontdialog.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qformlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qframe.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgesture.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgesturerecognizer.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsanchorlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicseffect.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsgridlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitem.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsitemanimation.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslayoutitem.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicslinearlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsproxywidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsscene.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicssceneevent.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicstransform.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicsview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgraphicswidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgridlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qgroupbox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qheaderview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qinputdialog.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qitemdelegate.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qitemeditorfactory.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qkeysequenceedit.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlabel.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlayoutitem.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlcdnumber.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlineedit.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlistview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qlistwidget.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qmainwindow.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qmdiarea.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qmdisubwindow.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qmenu.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qmenubar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qmessagebox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qplaintextedit.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qprogressbar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qprogressdialog.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qproxystyle.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qpushbutton.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qradiobutton.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qrhiwidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qrubberband.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qscrollarea.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qscrollbar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qscroller.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qscrollerproperties.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qshortcut.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qsizegrip.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qsizepolicy.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qslider.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qspinbox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qsplashscreen.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qsplitter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstackedlayout.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstackedwidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstatusbar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstyle.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstyleditemdelegate.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstylefactory.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstyleoption.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstylepainter.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qstyleplugin.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qsystemtrayicon.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtabbar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtableview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtablewidget.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtabwidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtextbrowser.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtextedit.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtoolbar.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtoolbox.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtoolbutton.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtooltip.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtreeview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtreewidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtreewidgetitemiterator.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtwidgets-config.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsexports.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsglobal.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qtwidgetsversion.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qundoview.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qwhatsthis.h \
 	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qwidget.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qwidgetaction.h \
+	/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qwizard.h \
 	/usr/local/Cellar/qt/6.7.3/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/usr/local/Cellar/qt/6.7.3/lib/cmake/Qt6/FindWrapOpenGL.cmake \
 	/usr/local/Cellar/qt/6.7.3/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
@@ -1138,6 +1712,14 @@ watertool_autogen/timestamp: \
 	/usr/local/lib/cmake/Qt6/Qt6Targets.cmake \
 	/usr/local/lib/cmake/Qt6/Qt6VersionlessTargets.cmake \
 	/usr/local/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsAdditionalTargetInfo.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsConfigVersion.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsTargets-release.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsTargets.cmake \
+	/usr/local/lib/cmake/Qt6Charts/Qt6ChartsVersionlessTargets.cmake \
 	/usr/local/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake \
 	/usr/local/lib/cmake/Qt6Core/Qt6CoreConfig.cmake \
 	/usr/local/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake \
@@ -1298,6 +1880,22 @@ watertool_autogen/timestamp: \
 	/usr/local/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-release.cmake \
 	/usr/local/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/usr/local/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-release.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
+	/usr/local/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsAdditionalTargetInfo.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImpl.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-release.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake \
+	/usr/local/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessTargets.cmake \
 	/usr/local/lib/cmake/Qt6Widgets/Qt6QMacStylePluginAdditionalTargetInfo.cmake \
 	/usr/local/lib/cmake/Qt6Widgets/Qt6QMacStylePluginConfig.cmake \
 	/usr/local/lib/cmake/Qt6Widgets/Qt6QMacStylePluginTargets-release.cmake \

@@ -179,6 +179,30 @@ dataset.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/dataset.cpp.s
 .PHONY : dataset.cpp.s
 
+fchart.o: fchart.cpp.o
+.PHONY : fchart.o
+
+# target to build an object file
+fchart.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/fchart.cpp.o
+.PHONY : fchart.cpp.o
+
+fchart.i: fchart.cpp.i
+.PHONY : fchart.i
+
+# target to preprocess a source file
+fchart.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/fchart.cpp.i
+.PHONY : fchart.cpp.i
+
+fchart.s: fchart.cpp.s
+.PHONY : fchart.s
+
+# target to generate assembly for a file
+fchart.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/watertool.dir/build.make CMakeFiles/watertool.dir/fchart.cpp.s
+.PHONY : fchart.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -337,6 +361,9 @@ help:
 	@echo "... dataset.o"
 	@echo "... dataset.i"
 	@echo "... dataset.s"
+	@echo "... fchart.o"
+	@echo "... fchart.i"
+	@echo "... fchart.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

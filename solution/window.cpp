@@ -7,6 +7,11 @@
 #include "stats.hpp"
 #include "water.hpp"
 
+#include <QLineSeries>
+#include <QChart>
+#include <QChartView>
+#include <QToolBox>
+
 static const int MIN_WIDTH = 620;
 
 WaterWindow::WaterWindow() : QMainWindow(), statsDialog(nullptr)
@@ -27,7 +32,6 @@ WaterWindow::WaterWindow() : QMainWindow(), statsDialog(nullptr)
   setWindowTitle("Water Tool");
 }
 
-
 void WaterWindow::createTest()
 {
   table = new QTableView();
@@ -43,23 +47,57 @@ void WaterWindow::createPOPs()
 {
   pop = new QLabel("hello world");
   setCentralWidget(pop);
+}
 
+void WaterWindow::createFlourinated()
+{
+
+  //  Create a container widget for this page
+  QWidget *flourinatedWidget = new QWidget();
+  QVBoxLayout *layout = new QVBoxLayout();
+
+  FlourineChart *fchart = new FlourineChart();
+  if (model.hasData())
+  {
+    fchart->loadDataset(model.getData());
+  }
+
+  // Create file selectors specific to this window
+
+  updateFileSelector(pollutant, fchart->getDeterminands());
+  updateFileSelector(location, fchart->getLocations(pollutant->currentText().toStdString()));
+
+  // Create a chart and chart view
+  fchart->loadDataset(model.getData());
+  QChart *chart = new QChart();
+  fchart->initChart(chart);
+  std::cout << "chart created" << std::endl;
+  QChartView *chartView = new QChartView(chart);
+  layout->addWidget(chartView);
+
+  // Connect selectors to a slot for updating the chart
+  connect(pollutant, &QComboBox::currentTextChanged, this, [=]()
+          { fchart->updateChart(chart, pollutant->currentText().toStdString());
+            updateFileSelector(location, fchart->getLocations(pollutant->currentText().toStdString())); });
+  connect(location, &QComboBox::currentTextChanged, this, [=]()
+          { std::cout << "location changed" << std::endl; });
+  chartView->setChart(chart);
+  // Set the layout and widget as the central widget
+  flourinatedWidget->setLayout(layout);
+  setCentralWidget(flourinatedWidget);
 }
 
 void WaterWindow::createPageBar()
 {
   QToolBar *pageBar = new QToolBar();
-
   pageBar->addWidget(overviewButton);
   pageBar->addWidget(popsButton);
   pageBar->addWidget(litterButton);
   pageBar->addWidget(flourinatedButton);
   pageBar->addWidget(complianceButton);
 
-
   addToolBar(Qt::TopToolBarArea, pageBar);
 }
-
 
 // change this
 void WaterWindow::createFileSelectors()
@@ -69,10 +107,16 @@ void WaterWindow::createFileSelectors()
   pollutant = new QComboBox();
   pollutant->addItems(pollutantOptions);
 
-  QStringList periodOptions;
-  periodOptions << "hour" << "day" << "week" << "month";
-  period = new QComboBox();
-  period->addItems(periodOptions);
+  QStringList locationOptions;
+  locationOptions << "locations";
+  location = new QComboBox();
+  location->addItems(locationOptions);
+}
+
+void WaterWindow::updateFileSelector(QComboBox *selector, QStringList options)
+{
+  selector->clear();
+  selector->addItems(options);
 }
 
 void WaterWindow::createButtons()
@@ -84,7 +128,6 @@ void WaterWindow::createButtons()
   litterButton = new QPushButton("Litter Indicators");
   flourinatedButton = new QPushButton("Flourinated compounds");
   complianceButton = new QPushButton("Compliance Dashboard");
-
 
   connect(loadButton, SIGNAL(clicked()), this, SLOT(openCSV()));
   connect(statsButton, SIGNAL(clicked()), this, SLOT(displayStats()));
@@ -104,10 +147,10 @@ void WaterWindow::createToolBar()
   toolBar->addWidget(pollutantLabel);
   toolBar->addWidget(pollutant);
 
-  QLabel *periodLabel = new QLabel("Period");
-  periodLabel->setAlignment(Qt::AlignVCenter);
-  toolBar->addWidget(periodLabel);
-  toolBar->addWidget(period);
+  QLabel *locationLabel = new QLabel("location");
+  locationLabel->setAlignment(Qt::AlignVCenter);
+  toolBar->addWidget(locationLabel);
+  toolBar->addWidget(location);
 
   toolBar->addSeparator();
 
@@ -151,7 +194,6 @@ void WaterWindow::addHelpMenu()
   helpMenu->addAction(aboutAction);
   helpMenu->addAction(aboutQtAction);
 }
-
 
 void WaterWindow::setDataLocation()
 {
@@ -217,7 +259,6 @@ void WaterWindow::displayStats()
     statsDialog->activateWindow();
   }
 }
-
 
 void WaterWindow::about()
 {

@@ -5,6 +5,9 @@
 #include <QMainWindow>
 #include "model.hpp"
 #include "water.hpp"
+#include "fchart.hpp"
+#include <QChart>
+#include <QLineSeries>
 
 class QString;
 class QComboBox;
@@ -29,14 +32,12 @@ private:
   void addFileMenu();
   void addHelpMenu();
   void addPOPMenu();
-
-
-
+  void updateFileSelector(QComboBox *selector, QStringList options);
 
   WaterModel model;         // data model used by table
   QString dataLocation;     // location of CSV data files
   QComboBox *pollutant;     // selector for quake feed significance level
-  QComboBox *period;        // selector for quake feed time period
+  QComboBox *location;      // selector for quake feed time period
   QPushButton *loadButton;  // button to load a new CSV file
   QPushButton *statsButton; // button to display dataset stats
   QPushButton *overviewButton;
@@ -44,6 +45,7 @@ private:
   QPushButton *litterButton;
   QPushButton *flourinatedButton;
   QPushButton *complianceButton;
+  QToolBar *toolBar; // toolbar for file and data controls
 
   QTableView *table;        // table of quake data
   QLabel *fileInfo;         // status bar info on current file
@@ -53,6 +55,9 @@ private:
 
   QLabel *pop;
 
+  QChart *chart;
+  QLineSeries *lineView;
+
 private slots:
   void setDataLocation();
   void openCSV();
@@ -60,4 +65,5 @@ private slots:
   void about();
   void createPOPs();
   void createTest();
+  void createFlourinated();
 };

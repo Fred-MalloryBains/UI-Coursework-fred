@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "watertool_autogen"
   "CMakeFiles/watertool.dir/dataset.cpp.o"
   "CMakeFiles/watertool.dir/dataset.cpp.o.d"
+  "CMakeFiles/watertool.dir/fchart.cpp.o"
+  "CMakeFiles/watertool.dir/fchart.cpp.o.d"
   "CMakeFiles/watertool.dir/main.cpp.o"
   "CMakeFiles/watertool.dir/main.cpp.o.d"
   "CMakeFiles/watertool.dir/model.cpp.o"

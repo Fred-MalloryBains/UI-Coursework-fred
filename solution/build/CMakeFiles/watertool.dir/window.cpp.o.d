@@ -1726,5 +1726,37 @@ CMakeFiles/watertool.dir/window.cpp.o: \
   /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/dataset.hpp \
   /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/water.hpp \
+  /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/fchart.hpp \
+  /usr/local/lib/QtCharts.framework/Headers/QLineSeries \
+  /usr/local/lib/QtCharts.framework/Headers/qlineseries.h \
+  /usr/local/include/QtCharts/QChartGlobal \
+  /usr/local/include/QtCharts/qchartglobal.h \
+  /usr/local/include/QtCharts/qtcharts-config.h \
+  /usr/local/include/QtCharts/qtchartsexports.h \
+  /usr/local/include/QtCharts/QXYSeries \
+  /usr/local/include/QtCharts/qxyseries.h \
+  /usr/local/include/QtCharts/QAbstractSeries \
+  /usr/local/include/QtCharts/qabstractseries.h \
+  /usr/local/include/QtCharts/QAbstractAxis \
+  /usr/local/include/QtCharts/qabstractaxis.h \
+  /usr/local/include/QtGui/QPen /usr/local/include/QtGui/QFont \
+  /usr/local/include/QtGui/QBrush /usr/local/include/QtGui/QImage \
+  /usr/local/lib/QtCharts.framework/Headers/QChart \
+  /usr/local/lib/QtCharts.framework/Headers/qchart.h \
+  /usr/local/include/QtCharts/QLegend \
+  /usr/local/include/QtCharts/qlegend.h \
+  /usr/local/include/QtWidgets/QGraphicsWidget \
+  /usr/local/lib/QtWidgets.framework/Headers/QComboBox \
+  /usr/local/lib/QtCharts.framework/Headers/QChartView \
+  /usr/local/lib/QtCharts.framework/Headers/qchartview.h \
+  /usr/local/include/QtCharts/QChart \
+  /usr/local/include/QtWidgets/QGraphicsView \
+  /usr/local/include/QtWidgets/qgraphicsview.h \
+  /usr/local/lib/QtCharts.framework/Headers/QLogValueAxis \
+  /usr/local/lib/QtCharts.framework/Headers/qlogvalueaxis.h \
+  /usr/local/lib/QtCharts.framework/Headers/QValueAxis \
+  /usr/local/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /usr/local/lib/QtCore.framework/Headers/QString \
   /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/stats.hpp \
-  /usr/local/lib/QtWidgets.framework/Headers/QDialog
+  /usr/local/lib/QtWidgets.framework/Headers/QDialog \
+  /usr/local/lib/QtWidgets.framework/Headers/QToolBox

@@ -163,3 +163,42 @@ void FlourineChart::initChart(QChart *chart)
 
     chart->setTitle("Flourinated Compounds");
 }
+
+void FlourineChart::updateCompliance(QLabel *pfaLabel, QLabel *locationLabel,
+                                     QFrame *complianceBar, std::string pollutant, std::string location)
+{
+    if (pollutant == "" || location == "")
+    {
+        return;
+    }
+    float result = 0;
+    pfaLabel->setText(QString::fromStdString(pollutant));
+    locationLabel->setText(QString::fromStdString(location));
+    std::cout << "determinand: " << pollutant << std::endl;
+    std::cout << "location: " << location << std::endl;
+    for (int i = 0; i < dataset.size(); i++)
+    {
+        Water w = dataset[i];
+        std::cout << i << std::endl;
+        if (w.getDeterminand().getLabel() == pollutant && w.getSample().getSamplingPoint().getLabel() == location)
+        {
+            result = w.getResult();
+            break;
+        }
+    }
+    // set style sheet
+    std::cout << "result: ";
+
+    if (result < 0.1)
+    {
+        complianceBar->setStyleSheet("background-color: green");
+    }
+    else if (result < 0.2)
+    {
+        complianceBar->setStyleSheet("background-color: yellow");
+    }
+    else
+    {
+        complianceBar->setStyleSheet("background-color: red");
+    }
+}

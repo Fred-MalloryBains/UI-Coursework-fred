@@ -1511,6 +1511,7 @@
   /usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QComboBox \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle \
+  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QFrame \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QLayout \

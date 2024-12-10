@@ -1560,6 +1560,7 @@
  /usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h
  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QComboBox
  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle
+ /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QFrame
  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView
  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget
  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QLayout
@@ -4629,6 +4630,7 @@ CMakeFiles/watertool.dir/fchart.cpp.o
  /usr/local/lib/QtCharts.framework/Headers/qvalueaxis.h
  /usr/local/lib/QtCore.framework/Headers/QString
  /usr/local/lib/QtWidgets.framework/Headers/QComboBox
+ /usr/local/lib/QtWidgets.framework/Headers/QFrame
  /usr/local/lib/QtWidgets.framework/Headers/QtWidgets
  /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h
  /usr/local/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h
@@ -6416,6 +6418,7 @@ CMakeFiles/watertool.dir/main.cpp.o
  /usr/local/lib/QtCore.framework/Headers/QString
  /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h
  /usr/local/lib/QtWidgets.framework/Headers/QComboBox
+ /usr/local/lib/QtWidgets.framework/Headers/QFrame
  /usr/local/lib/QtWidgets.framework/Headers/QMainWindow
  /usr/local/lib/QtWidgets.framework/Headers/QtWidgets
  /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h
@@ -12032,6 +12035,7 @@ CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o
  /usr/local/lib/QtCore.framework/Headers/QString
  /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h
  /usr/local/lib/QtWidgets.framework/Headers/QComboBox
+ /usr/local/lib/QtWidgets.framework/Headers/QFrame
  /usr/local/lib/QtWidgets.framework/Headers/QMainWindow
  /usr/local/lib/QtWidgets.framework/Headers/QtWidgets
  /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h
@@ -13822,7 +13826,9 @@ CMakeFiles/watertool.dir/window.cpp.o
  /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h
  /usr/local/lib/QtWidgets.framework/Headers/QComboBox
  /usr/local/lib/QtWidgets.framework/Headers/QDialog
+ /usr/local/lib/QtWidgets.framework/Headers/QFrame
  /usr/local/lib/QtWidgets.framework/Headers/QMainWindow
+ /usr/local/lib/QtWidgets.framework/Headers/QProgressBar
  /usr/local/lib/QtWidgets.framework/Headers/QToolBox
  /usr/local/lib/QtWidgets.framework/Headers/QtWidgets
  /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h

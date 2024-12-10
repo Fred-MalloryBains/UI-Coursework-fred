@@ -1748,6 +1748,7 @@ CMakeFiles/watertool.dir/fchart.cpp.o: \
   /usr/local/lib/QtCharts.framework/Headers/qlogvalueaxis.h \
   /usr/local/lib/QtCharts.framework/Headers/QValueAxis \
   /usr/local/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/dataset.hpp \
   /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/water.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/iostream \

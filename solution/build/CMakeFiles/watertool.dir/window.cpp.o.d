@@ -1756,7 +1756,9 @@ CMakeFiles/watertool.dir/window.cpp.o: \
   /usr/local/lib/QtCharts.framework/Headers/qlogvalueaxis.h \
   /usr/local/lib/QtCharts.framework/Headers/QValueAxis \
   /usr/local/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /usr/local/lib/QtCore.framework/Headers/QString \
   /Users/fred/Documents/GitHub/Year2/UI-Coursework-fred/solution/stats.hpp \
   /usr/local/lib/QtWidgets.framework/Headers/QDialog \
-  /usr/local/lib/QtWidgets.framework/Headers/QToolBox
+  /usr/local/lib/QtWidgets.framework/Headers/QToolBox \
+  /usr/local/lib/QtWidgets.framework/Headers/QProgressBar

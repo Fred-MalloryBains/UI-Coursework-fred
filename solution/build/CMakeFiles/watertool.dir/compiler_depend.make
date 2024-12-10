@@ -1559,6 +1559,7 @@ watertool_autogen/timestamp: /Applications/Xcode.app/Contents/Developer/Platform
   /usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qwindowdefs.h \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QComboBox \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QCommonStyle \
+  /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QFrame \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsView \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QGraphicsWidget \
   /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QLayout \
@@ -4626,6 +4627,7 @@ CMakeFiles/watertool.dir/fchart.cpp.o: /Users/fred/Documents/GitHub/Year2/UI-Cou
   /usr/local/lib/QtCharts.framework/Headers/qvalueaxis.h \
   /usr/local/lib/QtCore.framework/Headers/QString \
   /usr/local/lib/QtWidgets.framework/Headers/QComboBox \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /usr/local/lib/QtWidgets.framework/Headers/QtWidgets \
   /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h \
   /usr/local/lib/QtWidgets.framework/Headers/qabstractitemdelegate.h \
@@ -6412,6 +6414,7 @@ CMakeFiles/watertool.dir/main.cpp.o: /Users/fred/Documents/GitHub/Year2/UI-Cours
   /usr/local/lib/QtCore.framework/Headers/QString \
   /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /usr/local/lib/QtWidgets.framework/Headers/QComboBox \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
   /usr/local/lib/QtWidgets.framework/Headers/QtWidgets \
   /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h \
@@ -12024,6 +12027,7 @@ CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o: watertool_aut
   /usr/local/lib/QtCore.framework/Headers/QString \
   /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /usr/local/lib/QtWidgets.framework/Headers/QComboBox \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
   /usr/local/lib/QtWidgets.framework/Headers/QtWidgets \
   /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h \
@@ -13813,7 +13817,9 @@ CMakeFiles/watertool.dir/window.cpp.o: /Users/fred/Documents/GitHub/Year2/UI-Cou
   /usr/local/lib/QtCore.framework/Headers/qabstractitemmodel.h \
   /usr/local/lib/QtWidgets.framework/Headers/QComboBox \
   /usr/local/lib/QtWidgets.framework/Headers/QDialog \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /usr/local/lib/QtWidgets.framework/Headers/QMainWindow \
+  /usr/local/lib/QtWidgets.framework/Headers/QProgressBar \
   /usr/local/lib/QtWidgets.framework/Headers/QToolBox \
   /usr/local/lib/QtWidgets.framework/Headers/QtWidgets \
   /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h \
@@ -14095,6 +14101,8 @@ watertool_autogen/mocs_compilation.cpp:
 /usr/local/lib/QtWidgets.framework/Headers/qabstractbutton.h:
 
 /usr/local/lib/QtWidgets.framework/Headers/QtWidgets:
+
+/usr/local/lib/QtWidgets.framework/Headers/QFrame:
 
 /usr/local/lib/QtWidgets.framework/Headers/QComboBox:
 
@@ -14454,6 +14462,8 @@ watertool_autogen/mocs_compilation.cpp:
 
 /usr/local/include/QtCore/qreadwritelock.h:
 
+/usr/local/include/QtCore/qrandom.h:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_iterator_concept.h:
 
 /usr/local/include/QtCore/qqueue.h:
@@ -14765,6 +14775,8 @@ watertool_autogen/mocs_compilation.cpp:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy_if.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+
+/usr/local/lib/QtWidgets.framework/Headers/QProgressBar:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/pkuintrin.h:
 
@@ -15750,8 +15762,6 @@ watertool_autogen/mocs_compilation.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_error.h:
 
-/usr/local/include/QtCore/qrandom.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_context.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__format/format_arg.h:
@@ -16608,10 +16618,6 @@ watertool_autogen/mocs_compilation.cpp:
 
 /usr/local/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
-
-/usr/local/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-release.cmake:
-
 /usr/local/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets.cmake:
 
 /usr/local/lib/cmake/Qt6Gui/Qt6QPdfPluginTargets-release.cmake:
@@ -17340,11 +17346,11 @@ watertool_autogen/mocs_compilation.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/sched.h:
 
-/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfilesystemmodel.h:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__iterator/mergeable.h:
 
 /usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/qfilesystemmodel.h:
+
+/usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/qfilesystemmodel.h:
 
 /usr/local/Cellar/qt/6.7.3/lib/QtGui.framework/Versions/A/Headers/QActionGroup:
 
@@ -18433,6 +18439,12 @@ CMakeFiles/3.30.5/CMakeCXXCompiler.cmake:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__random/piecewise_linear_distribution.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/16/include/avxvnniintrin.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
+
+/usr/local/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-release.cmake:
+
+/usr/local/Cellar/qt/6.7.3/lib/QtWidgets.framework/Versions/A/Headers/QFrame:
 
 /usr/local/include/QtWidgets/QCommonStyle:
 

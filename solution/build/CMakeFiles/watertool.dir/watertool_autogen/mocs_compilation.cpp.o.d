@@ -1756,5 +1756,6 @@ CMakeFiles/watertool.dir/watertool_autogen/mocs_compilation.cpp.o: \
   /usr/local/lib/QtCharts.framework/Headers/qlogvalueaxis.h \
   /usr/local/lib/QtCharts.framework/Headers/QValueAxis \
   /usr/local/lib/QtCharts.framework/Headers/qvalueaxis.h \
+  /usr/local/lib/QtWidgets.framework/Headers/QFrame \
   /usr/local/lib/QtCore.framework/Headers/QString \
   /usr/local/include/QtCore/qtmochelpers.h

@@ -11,6 +11,8 @@
 #include <QChart>
 #include <QChartView>
 #include <QToolBox>
+#include <QProgressBar>
+#include <QFrame>
 
 static const int MIN_WIDTH = 620;
 
@@ -56,6 +58,17 @@ void WaterWindow::createFlourinated()
   QWidget *flourinatedWidget = new QWidget();
   QVBoxLayout *layout = new QVBoxLayout();
 
+  QLabel *pfaLabel = new QLabel("label");
+  QLabel *locationLabel = new QLabel("location");
+  QFrame *complianceBar = new QFrame();
+
+  complianceBar->setFrameShape(QFrame::HLine);
+  complianceBar->setFixedHeight(10);
+
+  layout->addWidget(pfaLabel);
+  layout->addWidget(locationLabel);
+  layout->addWidget(complianceBar);
+
   FlourineChart *fchart = new FlourineChart();
   if (model.hasData())
   {
@@ -78,9 +91,12 @@ void WaterWindow::createFlourinated()
   // Connect selectors to a slot for updating the chart
   connect(pollutant, &QComboBox::currentTextChanged, this, [=]()
           { fchart->updateChart(chart, pollutant->currentText().toStdString());
-            updateFileSelector(location, fchart->getLocations(pollutant->currentText().toStdString())); });
+            updateFileSelector(location, fchart->getLocations(pollutant->currentText().toStdString()));
+            fchart->updateCompliance(pfaLabel, locationLabel, complianceBar, pollutant->currentText().toStdString(), 
+                              location->currentText().toStdString()); });
   connect(location, &QComboBox::currentTextChanged, this, [=]()
-          { std::cout << "location changed" << std::endl; });
+          { fchart->updateCompliance(pfaLabel, locationLabel, complianceBar, pollutant->currentText().toStdString(),
+                                     location->currentText().toStdString()); });
   chartView->setChart(chart);
   // Set the layout and widget as the central widget
   flourinatedWidget->setLayout(layout);

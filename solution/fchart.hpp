@@ -5,6 +5,7 @@
 #include <QChartView>
 #include <QLogValueAxis>
 #include <QValueAxis>
+#include <QFrame>
 #include "dataset.hpp"
 #include <QString>
 
@@ -19,6 +20,8 @@ public:
     bool check(std::string label);
     void updateChart(QChart *chart, std::string pollutant);
     void initChart(QChart *chart);
+    void updateCompliance(QLabel *pfaLabel, QLabel *locationLabel, QFrame *complianceBar,
+                          std::string pollutant, std::string location);
 
     /*
     double meanDepth() const { return dataset.meanDepth(); }

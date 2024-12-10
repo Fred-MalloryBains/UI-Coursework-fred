@@ -10,6 +10,8 @@ int main(int argc, char *argv[])
 
   WaterWindow window;
   window.show();
-
+  app.setStyleSheet("QToolTip {"
+                    "color: white; background-color: grey; border: 1px solid black;"
+                    "}");
   return app.exec();
 }

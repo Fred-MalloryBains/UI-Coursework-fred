@@ -58,17 +58,27 @@ void WaterWindow::createFlourinated()
   QWidget *flourinatedWidget = new QWidget();
   QVBoxLayout *layout = new QVBoxLayout();
 
-  QLabel *pfaLabel = new QLabel("label");
-  QLabel *locationLabel = new QLabel("location");
+  // create compliance widgets and allign them
+  QLabel *pfaLabel = new QLabel("Select a pollutant to view data ");
+  QLabel *locationLabel = new QLabel("Select a location to view the compliance indicator");
+
   QFrame *complianceBar = new QFrame();
+  QHBoxLayout *complianceLayout = new QHBoxLayout();
+
+  complianceLayout->addWidget(complianceLabel);
+  complianceLayout->addWidget(complianceBar);
+  complianceLayout->setAlignment(Qt::AlignHCenter);
+  layout->addLayout(complianceLayout);
 
   complianceBar->setFrameShape(QFrame::HLine);
   complianceBar->setFixedHeight(10);
 
   layout->addWidget(pfaLabel);
   layout->addWidget(locationLabel);
+
   layout->addWidget(complianceBar);
 
+  // data
   FlourineChart *fchart = new FlourineChart();
   if (model.hasData())
   {

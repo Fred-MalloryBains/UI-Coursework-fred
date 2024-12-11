@@ -29,13 +29,13 @@ WaterWindow::WaterWindow() : QMainWindow(), statsDialog(nullptr)
   createPageBar();
 
   createPOPs();
-
   setMinimumWidth(MIN_WIDTH);
   setWindowTitle("Water Tool");
 }
 
 void WaterWindow::createTest()
 {
+
   table = new QTableView();
   table->setModel(&model);
 
@@ -53,48 +53,65 @@ void WaterWindow::createPOPs()
 
 void WaterWindow::createFlourinated()
 {
+  disconnect(pollutant, &QComboBox::currentTextChanged, nullptr, nullptr);
+  disconnect(location, &QComboBox::currentTextChanged, nullptr, nullptr);
 
+  pollutant->clear();
+  location->clear();
   //  Create a container widget for this page
   QWidget *flourinatedWidget = new QWidget();
   QVBoxLayout *layout = new QVBoxLayout();
-
   // create compliance widgets and allign them
   QLabel *pfaLabel = new QLabel("Select a pollutant to view data ");
+  pfaLabel->setAlignment(Qt::AlignHCenter);
   QLabel *locationLabel = new QLabel("Select a location to view the compliance indicator");
+  pfaLabel->setAlignment(Qt::AlignHCenter);
 
   QFrame *complianceBar = new QFrame();
   QHBoxLayout *complianceLayout = new QHBoxLayout();
 
-  complianceLayout->addWidget(complianceLabel);
-  complianceLayout->addWidget(complianceBar);
-  complianceLayout->setAlignment(Qt::AlignHCenter);
-  layout->addLayout(complianceLayout);
-
-  complianceBar->setFrameShape(QFrame::HLine);
   complianceBar->setFixedHeight(10);
+  complianceLayout->addWidget(pfaLabel);
+  complianceLayout->addWidget(locationLabel);
+  complianceLayout->addWidget(complianceBar);
+  complianceLayout->setAlignment(Qt::AlignTop);
+  complianceLayout->setDirection(QBoxLayout::TopToBottom);
 
-  layout->addWidget(pfaLabel);
-  layout->addWidget(locationLabel);
+  QWidget *complianceWidget = new QWidget();
+  complianceWidget->setLayout(complianceLayout);
+  layout->addWidget(complianceWidget);
 
-  layout->addWidget(complianceBar);
-
-  // data
+  // create Flourine chart object
   FlourineChart *fchart = new FlourineChart();
+
+  // load data from model.hpp using startercode function
   if (model.hasData())
   {
     fchart->loadDataset(model.getData());
   }
-
+  else
+  {
+    if (dataLocation != "")
+    {
+      openCSV();
+      fchart->loadDataset(model.getData());
+    }
+    else
+    {
+      QMessageBox::critical(this, "Data Error",
+                            "No data has been loaded!\n\n"
+                            "You can load data via the File menu.");
+      return;
+    }
+  }
   // Create file selectors specific to this window
 
   updateFileSelector(pollutant, fchart->getDeterminands());
-  updateFileSelector(location, fchart->getLocations(pollutant->currentText().toStdString()));
 
   // Create a chart and chart view
   fchart->loadDataset(model.getData());
   QChart *chart = new QChart();
   fchart->initChart(chart);
-  std::cout << "chart created" << std::endl;
   QChartView *chartView = new QChartView(chart);
   layout->addWidget(chartView);
 
@@ -141,8 +158,16 @@ void WaterWindow::createFileSelectors()
 
 void WaterWindow::updateFileSelector(QComboBox *selector, QStringList options)
 {
-  selector->clear();
-  selector->addItems(options);
+
+  if (selector->count() == 0)
+  {
+    selector->addItems(options);
+  }
+  else
+  {
+    selector->clear();
+    selector->addItems(options);
+  }
 }
 
 void WaterWindow::createButtons()

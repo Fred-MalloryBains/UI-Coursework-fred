@@ -5,6 +5,7 @@
 #include <iostream>
 #include <algorithm>
 
+// if the pollutant label or determinand is flourinated or PFAS
 bool FlourineChart::check(std::string label)
 {
     if (label.find("flu") != std::string::npos)
@@ -22,6 +23,8 @@ bool FlourineChart::check(std::string label)
     return false;
 }
 
+// get all the determinands that are flourinated or PFAS
+// return QString list to become a combo box
 QStringList FlourineChart::getDeterminands()
 {
     // creating a map to see how many occurences and if it is a plottable PFAS or florinated compound
@@ -35,17 +38,20 @@ QStringList FlourineChart::getDeterminands()
         // filter for flourinated compounds
         if (check(label) || check(definition))
         {
-
+            // is flourinated or PFAS
             if (determinands.indexOf(QString::fromStdString(label)) == -1)
             {
+                // result is within plotting range
                 if (w.getResult() > 0.001 && w.getResult() < 1)
                 {
+                    // is repeat
                     if (determinandMap.find(label) == determinandMap.end())
                     {
                         determinandMap[label] = 1;
                     }
                     else
                     {
+                        // enough data to plot
                         if (determinandMap[label] == 10)
                         {
                             determinands << QString::fromStdString(label);
@@ -59,10 +65,10 @@ QStringList FlourineChart::getDeterminands()
     return determinands;
 }
 
+// get all the locations that have present compound in sample
+
 QStringList FlourineChart::getLocations(std::string pollutant)
 {
-    std::cout << "location pollutant" << std::endl;
-    std::cout << pollutant << std::endl;
 
     QStringList locations;
     if (pollutant == "")
@@ -173,7 +179,6 @@ void FlourineChart::updateCompliance(QLabel *pfaLabel, QLabel *locationLabel,
     for (int i = 0; i < dataset.size(); i++)
     {
         Water w = dataset[i];
-        std::cout << i << std::endl;
         if (w.getDeterminand().getLabel() == pollutant && w.getSample().getSamplingPoint().getLabel() == location)
         {
             result = w.getResult();
